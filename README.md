@@ -14,4 +14,4 @@ Setup:
 - Once you're finished with the build, type 'npm run dev' on one terminal to get the frontend loaded
 - You should run 'npm run dev-server' on another terminal instance to get the backend booted up as well.
 
-Then you're in business! Feel free to make improvements to the application - I love contributions!
+And you're in business! Feel free to make improvements to the application - I love contributions.
