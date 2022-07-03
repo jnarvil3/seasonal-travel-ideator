@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    background-color: black;
+    // background-image: url("https://images.adsttc.com/media/images/5ad5/d8aa/f197/ccc2/b400/0602/large_jpg/city_lights_africa_8k.jpg?1523964062");
+    background-image: url("https://images.pond5.com/earth-space-night-day-transition-footage-088173277_prevstill.jpeg");
+    background-color: #cccccc;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border-color: white;
+    border-width: 4px;
+}
+
+button {
+    margin: 1em;
+    width: 7em;
+    height: 3em;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+#springButton {
+    background-color: green;
+}
+
+#summerButton {
+    background-color: yellow;
+    color: black;
+}
+
+#fallButton {
+    background-color: brown;
+}
+
+#winterButton {
+    background-color: blue;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.itineraryContainer {
+    margin: 1em;
+    // border-style: dotted 5px white;
+}
+
+span {
+    font-size: medium;
+}
+
+.SeeActivitiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border-color: white;
+    border-width: 4px;
+    background: rgb(30, 30, 30);
+    opacity: 0.90;
+
+}
+
+input {
+    margin: 1em;
+    padding: 5px;
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addActivityInputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeBackContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#addActivityButton {
+    color: white;
+    height: auto;
+    width: auto;
+    background-color: red;
+    padding: 10px;
+}
+
+h4 {
+    font-family: 'Cabin', sans-serif;
+    color: #00FFFF;
+}
+
+#deleteExperienceButton {
+    width: 13.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #00FF00;
+}
+
+.successfulText {
+    color: #FF0000;
+}
+
+.deleteActivityContainer {
+    background: rgb(30, 30, 30);
+    opacity: 0.90;
+}
+
+.updateActivitiesContainer {
+    background: rgb(30, 30, 30);
+    opacity: 0.90;
+}
+
+.addActivitiesContainer {
+    background: rgb(30, 30, 30);
+    opacity: 0.90;
+}
+
+.itineraryContainer {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itineraryContainerSpan {
+    font-size: 1em;
+}
+
+.heresAnIdeaText {
+    color: white;
+}
