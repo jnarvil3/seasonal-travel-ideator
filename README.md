@@ -6,3 +6,12 @@ I never remember to check the season before I book a trip - and wow has it cause
 
 With this app, you can view crowdsourced travel ideas from all over the world based on which season (relative to the Northern Hemisphere) you want to travel during. 
 
+Setup: 
+- Fork this repo
+- Clone it to your local machine
+- Using the command line, enter this folder's directory on your machine and run npm install
+- Then run 'npm run build' to start the build process using webpack.
+- Once you're finished with the build, type 'npm run dev' on one terminal to get the frontend loaded
+- You should run 'npm run dev-server' on another terminal instance to get the backend booted up as well.
+
+Then you're in business! Feel free to make improvements to the application - I love contributions!
