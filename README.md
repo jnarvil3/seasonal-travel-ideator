@@ -11,7 +11,7 @@ Setup:
 - Clone it to your local machine
 - Using the command line, enter this folder's directory on your machine and run npm install
 - Then run 'npm run build' to start the build process using webpack.
-- Once you're finished with the build, type 'npm run dev' on one terminal to get the frontend loaded
-- You should run 'npm run dev-server' on another terminal instance to get the backend booted up as well.
+- Once you're finished with the build, type 'npm run dev' on one terminal to get the frontend loaded (please note the frontend is currently setup to run on http://localhost:8080 - you can change this in the webpack.config file)
+- You should run 'npm run dev-server' on another terminal instance to get the backend booted up as well (please note the frontend is currently setup to run on http://localhost:3000 - you can change this in the server/server.js file)
 
 And you're in business! Feel free to make improvements to the application - I love contributions.
